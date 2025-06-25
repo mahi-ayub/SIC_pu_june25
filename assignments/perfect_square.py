@@ -1,3 +1,3 @@
 n = int(input())
-if math.isqrt(n) ** 2 == n:
+if int(n ** 0.5) ** 2 == n:
     print("Perfect square")
